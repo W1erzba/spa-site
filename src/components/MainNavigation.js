@@ -11,7 +11,6 @@ const MainNavigation = () => {
 						<NavLink
 							to='/'
 							className={({ isActive }) => (isActive ? classes.active : undefined)}
-							// style={({ isActive }) => ({ textAlign: isActive ? 'center' : 'left' })} ALTERNATIVE WAY
 							end>
 							Home
 						</NavLink>
